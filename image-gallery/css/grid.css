@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h1 {
+    width: 60vw;
+    margin: 50px auto;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: whitesmoke;
+    color: violet;
+    padding: 10px 0;
+}
+
+.container {
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 5px;
+    grid-auto-flow: dense;
+    width: 60vw;
+    height: 60vh;
+    
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.big {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
+
+.vertical {
+    grid-row: auto / span 2;
+}
+
+.horizontal {
+    grid-column: auto / span 2;
+}
+.big2 {
+    grid-column: span 6;
+    grid-row: span 1;
+}
+
+.normal {
+    grid-column: span 2;
+}
+/* 1st grid layout  */
+
+
+/* 1st grid layout  */

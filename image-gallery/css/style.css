@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+/* .wrapper {
+    width: 100%;
+    min-height: 1000px;
+
+}
+
+.box {
+    width: 80%;
+    height: 200px;
+    background-color: violet;
+    position: relative;
+    left: 10%;
+    top: 50px;
+}
+
+.box::before, .box::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+    position: absolute;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    z-index: -1;
+}
+
+.box::before {
+    top: 75px;
+    left: -25px;
+}
+
+.box::after {
+    top: 75px;
+    right: 0;
+    right: -25px;
+    
+} */
+
+/* pseduo classes  */
+/* .box {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: relative;
+    left: 200px;
+}
+
+.box::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    left: -120px;
+
+}
+.box::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(42, 99, 165);
+    position: absolute;
+    right: -120px;
+
+} */
+
+
+/* grid css */
+.container {
+
+}
+
+.item {
+    padding: 20px;
+}
